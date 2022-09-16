@@ -1,0 +1,43 @@
+.name {
+  font-size: 1.8rem;
+  line-height: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.bttn,
+.bttn:active .bttn:visited,
+.bttn:link {
+  background-color: rgb(25, 25, 233);
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.5s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.bttn:hover {
+  background-color: rgb(8, 8, 212);
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.email {
+  font-size: 1.6rem;
+  line-height: 30px;
+  font-weight: 400;
+}
+.body {
+  font-size: 1.8rem;
+  line-height: 40px;
+  font-weight: 400;
+}
+.comment {
+  font-size: 2rem;
+  line-height: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
